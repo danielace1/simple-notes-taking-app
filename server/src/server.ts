@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 
 const PORT = env.PORT;
 
+// connecting to db
 mongoose
   .connect(env.MONGODB_CONNECTION_STRING)
   .then(() => {
